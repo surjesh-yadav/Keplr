@@ -650,12 +650,14 @@ h3 {
   .mobile_footer{
     grid-template-columns: repeat(2, 1fr) !important
   }
-  .ml-0-lastcard_left{
-    margin-left: 0 !important;
-  }
+ 
   .last_box_right{
     display: none;
   }
+}
+
+.ml-0-lastcard_left{
+  margin-left: 0 !important;
 }
 
 .mobile_footer{
@@ -663,3 +665,10 @@ h3 {
 }
 
 
+
+
+@media(min-width:501px){
+  .last_box_right_mobile{
+    display: none;
+  }
+}

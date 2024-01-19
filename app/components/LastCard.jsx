@@ -10,7 +10,7 @@ const LastCard = () => {
             <h2 className='text-3xl font-semibold'>Built for Developers</h2>
           <p className='text-[14px] mt-3'> Keplr is open-sourced. Add the seamless <br/> wallet experience easily to your products</p> 
         </div>
-            <div className='border-color  p-0.5 w-full  rounded-full'>
+            <div className='flex border-color  p-0.5 w-full  rounded-full'>
                 <button onClick={()=>{setTabOpen(1)}} className={`${tabOpen == 1 ? "bg-white  py-2 text-black border-none rounded-full" :   "py-2 text-white border-none rounded-full px-6"} font-semibold sm:w-full w-1/2`}>Native</button>
                 <button onClick={()=>{setTabOpen(2)}} className={`${tabOpen == 2 ? "bg-white  py-2 text-black border-none rounded-full" :   "py-2 text-white border-none rounded-full "} font-semibold sm:w-full w-1/2`}>Permissionless</button>
             </div>
@@ -65,7 +65,14 @@ const LastCard = () => {
           <p> Keplr is open-sourced. Add the seamless <br/> wallet experience easily to your products</p> 
         </div>
         <div class="bi-background is-devs"><div class="grid-css"></div><div id="stars-devs" class="stars"><canvas class="particles-js-canvas-el" width="894" height="424" style={{width:100, height:100}}></canvas></div></div>
+   
+        <div class="bg-animation">
+        <div id="stars"></div>
+        <div id="stars2"></div>
+        <div id="stars3"></div>
+        <div id="stars4"></div>
     </div>
+     </div>
   )
 }
 
