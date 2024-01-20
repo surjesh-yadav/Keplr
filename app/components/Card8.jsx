@@ -5,7 +5,7 @@ import Link from "next/link";
 const Card8 = () => {
   const [tabOpen, setTabOpen] = useState(1);
   return (
-    <div className="md:flex relative my-5 mt-32 justify-between border-color rounded-2xl space-x-5">
+    <div className="md:flex relative my-5 justify-between border-color rounded-2xl space-x-5">
       <div class="bi-content is-chains-cont card8_let_box">
         <div class="bi-content_text">
           <h3>Natively and Permissionlessly Integrated&nbsp;Chains</h3>
