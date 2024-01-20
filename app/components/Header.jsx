@@ -23,7 +23,9 @@ const Header = () => {
 
   return (
     <div>
-      <nav className="border-color ">
+      <nav 
+       onMouseLeave={handleMouseLeave}
+       className="border-color ">
         <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
           <a href="#" class="flex items-center space-x-3 rtl:space-x-reverse">
             <img src="/main_logo.svg" class="h-8" alt="Flowbite Logo" />
@@ -44,6 +46,7 @@ const Header = () => {
           </button>
           <div className="flex space-x-5">
             <div
+            
               class={`${
                 isNavbarOpen == true ? "block" : "hidden"
               } w-full md:block md:w-auto`}
@@ -54,7 +57,7 @@ const Header = () => {
                   id="dropdownNavbar"
                   className="relative"
                   onMouseEnter={handleMouseEnter}
-                  onMouseLeave={handleMouseLeave}
+                 
                 >
                   <button
                     id="dropdownNavbarLink"
@@ -79,7 +82,9 @@ const Header = () => {
                   </button>
 
                   {isDropdownVisible && (
-                    <div className="dropdown_toggle_div z-10 font-normal bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700 dark:divide-gray-600">
+                    <div className="md:pt-8 pt-2 absolute">
+                    <div
+                     className="dropdown_toggle_div z-10 font-normal bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700 dark:divide-gray-600">
                       {/* Dropdown content */}
                       <ul
                         className="py-2 text-sm text-gray-700 dark:text-gray-400"
@@ -118,6 +123,7 @@ const Header = () => {
                           Sign out
                         </a>
                       </div>
+                    </div>
                     </div>
                   )}
                 </li>
