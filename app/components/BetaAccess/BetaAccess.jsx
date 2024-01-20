@@ -2,6 +2,7 @@ import React from "react";
 import "./BetaAccess.css"
 const BetaAccess = () => {
   return (
+     <div className="relative">
     <div class="block-item my-10">
       <div id="validator" class="anchor"></div>
       <div class="bi-content is-valid-cont">
@@ -132,6 +133,7 @@ const BetaAccess = () => {
           ></canvas>
         </div>
       </div>
+    </div>
     </div>
   );
 };
