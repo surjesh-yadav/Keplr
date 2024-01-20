@@ -3,9 +3,11 @@ import Header from "./components/Header"
 import Footer from "./components/Footer"
 import LastCard from './components/LastCard'
 import Head from 'next/head'
-
+import GatewayScroll from './components/GatewayScroll/GatewayScroll'
 import Card8 from './components/Card8'
 import Supercharge from './components/SuperchargeSections/Supercharge'
+import BetaAccess from './components/BetaAccess/BetaAccess'
+import HeroSection from "./components/HeroSection/HeroSection"
 export default function Home() {
   return (
      <div className='bg-[#080b18]'>
@@ -25,11 +27,15 @@ export default function Home() {
         <Card5/>
         <Card6/>
         <Card7/> */}
+        {/* <HeroSection/> */}
+
         <Supercharge/>
+        <BetaAccess/>
         <Card8/>
         <LastCard/>
         <div className='flex justify-center'><img className='w-[70px]' src='/footer_star.svg'/></div>
         <Footer />
+        {/* <GatewayScroll/> */}
       </div>
     </div>
     </div>
