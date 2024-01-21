@@ -9,6 +9,7 @@ import Supercharge from './components/SuperchargeSections/Supercharge'
 import BetaAccess from './components/BetaAccess/BetaAccess'
 import HeroSection from "./components/HeroSection/HeroSection"
 import Interoperability from './components/Interoperability/Interoperability'
+import CircutAnimation from './components/CircutAnimation/CircutAnimation'
 export default function Home() {
   return (
      <div className='bg-[#080b18]'>
@@ -20,6 +21,7 @@ export default function Home() {
       </Head>
         <div className='max-width'>  
          <Header />
+         <CircutAnimation/>
          <Supercharge/>
          <BetaAccess/>
          <Interoperability/>

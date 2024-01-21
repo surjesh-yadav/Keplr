@@ -52,7 +52,7 @@ const Header = () => {
               } w-full md:block md:w-auto`}
               id="navbar-dropdown"
             >
-              <ul class="flex gap-6 md:gap-0 flex-col font-medium p-4 md:p-0  md:space-x-8 rtl:space-x-reverse md:flex-row mt-3">
+              <ul class="flex gap-6 md:gap-0 flex-col font-medium p-4 md:p-0  md:space-x-8 rtl:space-x-reverse md:flex-row mt-4">
                 <li
                   id="dropdownNavbar"
                   className="relative"
@@ -173,7 +173,7 @@ const Header = () => {
               </ul>
             </div>
             <div className="text-black">
-              <Link className="button small text-black w-inline-block" href="#">
+              <Link className="button small text-black w-inline-block install_keplr_button" href="#">
                 Install Keplr
               </Link>
             </div>
