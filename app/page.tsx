@@ -21,6 +21,7 @@ export default function Home() {
       </Head>
         <div className='max-width'>  
          <Header />
+         <HeroSection/>
          <CircutAnimation/>
          <Supercharge/>
          <BetaAccess/>
@@ -29,7 +30,7 @@ export default function Home() {
          <LastCard/>
         <div className='flex justify-center'><img className='w-[70px]' src='/footer_star.svg'/></div>
         <Footer />
-        {/* <GatewayScroll/> */}
+        <GatewayScroll/>
       </div>
     </div>
     </div>

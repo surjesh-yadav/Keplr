@@ -1,5 +1,5 @@
 import React from "react";
-import "./HeroSection.css"
+import "./HeroSection.css";
 const HeroSection = () => {
   return (
     <div>
@@ -15,14 +15,24 @@ const HeroSection = () => {
             >
               <h1
                 data-w-id="1ee56df2-2e2f-961f-7511-d04f91d1b32e"
-                // style="opacity: 1; transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;"
+                style={{
+                  opacity: 1,
+                  transform:
+                    "translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)",
+                  transformStyle: "preserve-3d",
+                }}
                 class="hero-display"
               >
                 Your Interchain Gateway
               </h1>
               <p
                 data-w-id="92d155b7-9470-c5ca-9d45-ab6f46cc5671"
-                // style="opacity: 1; transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;"
+                style={{
+                  opacity: 1,
+                  transform:
+                    "translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)",
+                  transformStyle: "preserve-3d",
+                }}
                 class="hero-p"
               >
                 Introducing Keplr, the fast, simple, secure wallet that plugs
@@ -35,10 +45,15 @@ const HeroSection = () => {
               >
                 <div
                   data-w-id="a75c84dd-7eca-02c3-602e-e10285e46647"
-                //   style="opacity: 1; transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;"
+                  style={{
+                    opacity: 1,
+                    transform:
+                      "translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)",
+                    transformStyle: "preserve-3d",
+                  }}
                   class="hero-btns-layout"
                 >
-                  <a href="/download" class="button hero w-inline-block">
+                  <a href="/download" class="button hero flex">
                     <div class="icon-medium w-embed">
                       <svg
                         width="100%"
@@ -59,7 +74,7 @@ const HeroSection = () => {
                         ></path>
                       </svg>
                     </div>
-                    <div class="btn-text-small">Install Keplr</div>
+                    <div class="btn-text-small flex">Install Keplr</div>
                     <div class="btn-arrow-item">
                       <div class="icon-small w-embed">
                         <svg
