@@ -87,7 +87,7 @@ const BetaAccess = () => {
           <a
             href="https://validator.keplr.app"
             target="_blank"
-            class="button hero no-glow w-inline-block"
+            class="button hero no-glow w-inline-block flex"
           >
             <div class="btn-text-small">
               Try Out KVD

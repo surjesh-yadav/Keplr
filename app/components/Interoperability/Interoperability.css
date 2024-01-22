@@ -295,7 +295,16 @@ svg:not(:root) {
     grid-column-gap: 1.5em;
     grid-row-gap: 1.5em;
     align-items: stretch;
-    display: flex;
+    
+   
+}
+
+
+
+@media(min-width:769px){
+    .blocks-layout-2items{
+        display: flex;
+    } 
 }
 
 .block-item.is-small {

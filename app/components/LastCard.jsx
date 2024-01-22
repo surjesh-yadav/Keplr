@@ -37,14 +37,14 @@ const LastCard = () => {
                      <Link className='' href="#">Learn More</Link>
                 </div>
              </div>
-            </div> </div> :  tabOpen == 2 ?  <div className=' border-color  bg-[#151827] rounded-2xl p-8 mt-5'>
-            <div className='flex justify-between my-3 space-x-8'>
+            </div> </div> :  tabOpen == 2 ?  <div className=' border-color  bg-[#151827] rounded-2xl p-8 mt-5  w-full'>
+            <div className='md:flex justify-between my-3 space-x-8'>
                 <ul>
                     <li className='pb-5 text-sm flex'> <img src='/tick.svg'/>Token Transfers</li>
                     <li className='pb-5 text-sm flex'><img src='/tick.svg'/>Transaction Signing</li>
                     <li className='pb-5 text-sm flex'><img src='/tick.svg'/>Google Login</li>
                 </ul>
-                <ul>
+                <ul className='ml-0 ul_lower'>
                     <li className='pb-5 text-sm flex'><img src='/tick.svg'/>Account Management</li>
                     <li className='pb-5 text-sm flex'><img src='/tick.svg'/>Endpoint Infrastructure</li>
                     <li className='pb-5 text-sm flex'><img src='/tick.svg'/>Staking / Governance</li>

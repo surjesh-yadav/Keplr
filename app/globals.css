@@ -107,6 +107,7 @@ body {
 
 .first-tab{
   box-shadow: 0 100px 15em -5em #2dd98f !important;
+  width: 100%;
 }
 
 
@@ -294,6 +295,7 @@ nav{
   /* width: 24em; */
   margin-left: 0;
   margin-right: auto;
+  width: 100% !important;
 }
 
 .bi-content {
@@ -379,6 +381,7 @@ h3 {
   background-repeat: no-repeat;
   background-size: 1.7em 1.7em;
   padding-left: 2.65em;
+  width: 93%;
 }
 .field {
   width: 100%;
@@ -717,3 +720,27 @@ h3 {
 
 
 
+.button.hero.no-glow.w-inline-block{
+  display: flex !important;
+  text-wrap: nowrap;
+}
+
+
+.ul_lower{
+  margin-left: 0 !important;
+}
+
+.github_button{
+  display: flex !important;
+}
+
+
+.bi-content.is-chains-cont.card8_let_box{
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+
+}
+
+.bi-content_buttons.is-integr-btns.flex-wrap a{
+  padding: 14px !important;
+}

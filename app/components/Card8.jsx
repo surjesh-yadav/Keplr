@@ -70,7 +70,7 @@ const Card8 = () => {
               <br />
             </div>
           </a>
-          <a href="#" target="_blank" class="button text-only w-inline-block">
+          <a href="#" target="_blank" class="button text-only w-inline-block github_button">
             <div class="icon-medium w-embed">
               <svg
                 width="100%"

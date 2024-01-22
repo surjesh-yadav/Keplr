@@ -79,7 +79,7 @@ const Interoperability = () => {
               <a
                 href="https://www.icns.xyz/"
                 target="_blank"
-                class="button hero no-glow w-inline-block"
+                class="button hero no-glow w-inline-block flex"
               >
                 <div class="btn-text-small">
                   Claim Your ICNS
@@ -214,7 +214,7 @@ const Interoperability = () => {
                 <a
                   href="https://skiff.com/"
                   target="_blank"
-                  class="button hero no-glow w-inline-block"
+                  class="button hero no-glow w-inline-block flex"
                 >
                   <div class="btn-text-small">Get Skiff Free</div>
                   <div class="btn-arrow-item">
