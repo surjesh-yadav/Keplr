@@ -10,6 +10,7 @@ import BetaAccess from './components/BetaAccess/BetaAccess'
 import HeroSection from "./components/HeroSection/HeroSection"
 import Interoperability from './components/Interoperability/Interoperability'
 import CircutAnimation from './components/CircutAnimation/CircutAnimation'
+import GatewayScrollMobile from './components/GatewayScrollMobile/GatewayScroll'
 export default function Home() {
   return (
      <div className='bg-[#080b18]'>
@@ -21,7 +22,9 @@ export default function Home() {
       </Head>
         <div className='max-width'>  
          <Header />
+         <GatewayScrollMobile/>
          <HeroSection/>
+
          <CircutAnimation/>
          <Supercharge/>
          <BetaAccess/>

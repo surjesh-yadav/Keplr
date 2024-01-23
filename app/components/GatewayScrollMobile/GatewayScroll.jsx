@@ -2,7 +2,7 @@ import React from "react";
 import "./Gateway.css";
 const GatewayScroll = () => {
   return (
-    <div class="gateway-scroll hidden md:block">
+    <div class="gateway-scroll block md:hidden mobile_gateway">
       <div class="gateway-sticky">
         <div class="gateway__canvas">
           <div
