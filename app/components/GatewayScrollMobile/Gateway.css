@@ -9,7 +9,6 @@
     top: 0;
     overflow: visible;
 }
-
 .gateway-sticky {
     align-items: flex-start;
     display: flex;
@@ -17,7 +16,6 @@
     position: sticky;
     top: 0;
 }
-
 .gateway__canvas {
     z-index: 1;
     width: 100%;
@@ -38,8 +36,6 @@
         padding-left: 0 !important;
     }
 }
-
-
 .gateway-item {
     width: 200em;
     height: 100vh;
@@ -49,8 +45,6 @@
     position: relative;
     top: -6em;
 }
-
-
 .gc_portal {
     z-index: 4;
     width: 18em;
