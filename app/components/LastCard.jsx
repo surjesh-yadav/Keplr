@@ -5,7 +5,7 @@ const LastCard = () => {
     const [tabOpen, setTabOpen] = useState(1)
   return (
     <div className='relative md:flex justify-between  border-color  p-3 rounded-2xl space-x-5'>
-        <div className='bi-content is-chains-cont'> 
+        <div className='bi-content is-chains-cont fifty_width'> 
         <div className='my-auto whitespace-nowrap z-20 last_box_right_mobile'>
             <h2 className='text-3xl font-semibold'>Built for Developers</h2>
           <p className='text-[14px] mt-3'> Keplr is open-sourced. Add the seamless <br/> wallet experience easily to your products</p> 
@@ -15,9 +15,9 @@ const LastCard = () => {
                 <button onClick={()=>{setTabOpen(2)}} className={`${tabOpen == 2 ? "bg-white  py-2 text-black border-none rounded-full" :   "py-2 text-white border-none rounded-full "} font-semibold sm:w-full w-1/2`}>Permissionless</button>
             </div>
            {tabOpen == 1? 
-           <div className='w-full'>
+           <div className='width_hundred'>
            {/* <div class="grid-css"></div> */}
-            <div className='first-tab border-color  bg-[#0f1f25] w-ful rounded-2xl p-8 mt-5'>
+            <div className='first-tab border-color  bg-[#0f1f25] w-full rounded-2xl p-8 mt-5'>
             <div className='md:flex justify-between my-3 space-x-8'>
                 <ul>
                     <li className='pb-5 text-sm flex '><img src='/tick.svg'/>Token Transfers</li>
@@ -37,7 +37,7 @@ const LastCard = () => {
                      <Link className='' href="#">Learn More</Link>
                 </div>
              </div>
-            </div> </div> :  tabOpen == 2 ?  <div className=' border-color  bg-[#151827] rounded-2xl p-8 mt-5  w-full'>
+            </div> </div> :  tabOpen == 2 ?  <div className=' border-color  bg-[#151827] rounded-2xl p-8 mt-5 width_hundred'>
             <div className='md:flex justify-between my-3 space-x-8'>
                 <ul>
                     <li className='pb-5 text-sm flex'> <img src='/tick.svg'/>Token Transfers</li>

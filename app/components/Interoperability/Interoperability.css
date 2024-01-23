@@ -241,7 +241,7 @@ svg:not(:root) {
     z-index: 3;
     width: 100%;
     height: 100%;
-    background-image: linear-gradient(to right,#080b18 5%,rgba(8,11,24,0) 63%);
+    background-image: linear-gradient(to right, #080b18 5%, rgba(8,11,24,0) 63%);
     position: absolute;
     top: 0%;
     bottom: 0%;
@@ -369,9 +369,7 @@ h3 {
     line-height: 1.2;
 }
 
-.is-secure-txt {
-    width: 37ch;
-}
+ 
 
 p {
     color: #95a1b4;
@@ -694,6 +692,17 @@ p {
     width: 5.5em;
     height: 5.5em;
     transition: transform .1s;
+}
+
+@media(max-width:768px){
+    .skiff-image_icon {
+        width: 4em !important;
+        height: 4em !important;
+        transition: transform .1s;
+    }
+    .bi-content_buttons{
+        display: block;
+    }
 }
 
 .stars {

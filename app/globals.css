@@ -744,3 +744,17 @@ h3 {
 .bi-content_buttons.is-integr-btns.flex-wrap a{
   padding: 14px !important;
 }
+
+
+@media(min-width:768px){
+  .bi-content.is-chains-cont.fifty_width {
+    width: 50% !IMPORTANT;
+}
+}
+
+
+@media(max-width:767px){
+  .width_hundred {
+    width: 100% !important;
+}
+}

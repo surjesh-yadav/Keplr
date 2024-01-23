@@ -33,7 +33,6 @@
     overflow: hidden;
 }
 
-
 @media(max-width:768px){
     .gateway__canvas{
         padding-left: 0 !important;

@@ -1,8 +1,8 @@
 import React from "react";
-import "./CircutAnimation.css"
+import "./CircutAnimation.css";
 const CircutAnimation = () => {
   return (
-    <div className="relative my-28">
+    <div className="relative">
       <section class="section">
         <div class="container">
           <div
@@ -28,7 +28,7 @@ const CircutAnimation = () => {
               One Wallet. <br />
               Full Interoperability
             </h2>
-         
+
             <div class="lines w-embed">
               <svg
                 width="100%"

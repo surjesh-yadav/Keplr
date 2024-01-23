@@ -2,6 +2,7 @@ import React from "react";
 import "./Interoperability.css";
 const Interoperability = () => {
   return (
+
     <div className="container">
       <div class="blocks-layout align-center">
         <div class="h2-headline-layout">
@@ -10,7 +11,7 @@ const Interoperability = () => {
             style={{
               opacity: 1,
               transform:
-                "translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)",
+                 "translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)",
               transformStyle: "preserve-3d",
             }}
             class="badge-item"
@@ -118,8 +119,8 @@ const Interoperability = () => {
               <canvas
                 class="canvas-item-2 isLoaded"
                 id="dg-gradient-canvas-2"
-                width="1366"
-                height="600"
+                width={1366}
+                height={600}
               ></canvas>
             </div>
           </div>
@@ -189,7 +190,7 @@ const Interoperability = () => {
               <div class="grid-css"></div>
             </div>
           </div>
-          <div class="block-item is-small">
+          <div class="block-item is-small mt-5 md:mt-0">
             <div class="bi-content_small is-skiff">
               <div class="bi-content_subhead">
                 <img
