@@ -136,7 +136,7 @@ const Interoperability = () => {
           </div>
           <div class="bi-background is-devs"><div class="grid-css"></div><div id="stars-devs" class="stars"><canvas class="particles-js-canvas-el" width="894" height="424" ></canvas></div></div>
         </div>
-        <div class="blocks-layout-2items">
+        <div data-aos="fade-up" class="blocks-layout-2items">
           <div class="block-item is-small sec">
             <div class="bi-content_small">
               <img
