@@ -187,8 +187,8 @@ const CircutAnimation = () => {
                     gradientUnits="userSpaceOnUse"
                   >
                     <stop stop-color="transparent " offset="0%"></stop>
-                    <stop stop-color="var(--primary)" offset="10%"></stop>
-                    <stop stop-color="var(--purple)" offset="90%"></stop>
+                    <stop stop-color="#314FDF" offset="10%"></stop>
+                    <stop stop-color="#8B4DFF" offset="90%"></stop>
                     <stop stop-color="transparent" offset="100%"></stop>
                   </linearGradient>
                 </defs>

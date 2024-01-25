@@ -22,9 +22,8 @@ export default function Home() {
       </Head>
         <div className='max-width'>  
          <Header />
-         <GatewayScrollMobile/>
+         {/* <GatewayScrollMobile/> */}
          <HeroSection/>
-
          <CircutAnimation/>
          <Supercharge/>
          <BetaAccess/>

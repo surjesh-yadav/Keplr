@@ -199,3 +199,8 @@ svg:not(:root) {
     object-fit: contain;
     position: absolute;
 }
+
+:not(svg) {
+    transform-origin: 0px 0px;
+}
+ 
