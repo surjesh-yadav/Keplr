@@ -3,7 +3,7 @@ import "./CircutAnimation.css";
 const CircutAnimation = () => {
   return (
     <div className="relative">
-      <section class="section">
+      <section class="section section_circut">
         <div class="container">
           <div
             data-w-id="130221b3-0edf-b4e7-0c50-88a453636643"

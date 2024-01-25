@@ -200,3 +200,10 @@ svg:not(:root) {
     position: absolute;
 }
  
+
+
+@media(max-width:767px){
+    .section_circut{
+        margin : 0 !important;
+    }
+}
