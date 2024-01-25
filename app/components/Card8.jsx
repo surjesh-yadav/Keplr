@@ -1,11 +1,21 @@
 "use client";
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import Link from "next/link";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const Card8 = () => {
+   
+  useEffect(() => {
+    AOS.init({
+         duration: 800,
+         once: false,
+       })
+ }, [])
+  
   const [tabOpen, setTabOpen] = useState(1);
   return (
-    <div className="md:flex relative my-5 justify-between border-color rounded-2xl space-x-5">
+    <div data-aos="fade-up" className="md:flex relative my-5 justify-between border-color rounded-2xl space-x-5">
       <div class="bi-content is-chains-cont card8_let_box">
         <div class="bi-content_text">
           <h3>Natively and Permissionlessly Integrated&nbsp;Chains</h3>

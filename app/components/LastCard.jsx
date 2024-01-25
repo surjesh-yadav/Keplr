@@ -1,10 +1,19 @@
 "use client"
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import Link from 'next/link'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 const LastCard = () => {
+  useEffect(() => {
+    AOS.init({
+         duration: 800,
+         once: false,
+       })
+ }, [])
     const [tabOpen, setTabOpen] = useState(1)
+    
   return (
-    <div className='relative md:flex justify-between  border-color  p-3 rounded-2xl space-x-5'>
+    <div data-aos="fade-up" className='relative md:flex justify-between  border-color  p-3 rounded-2xl space-x-5'>
         <div className='bi-content is-chains-cont fifty_width'> 
         <div className='my-auto whitespace-nowrap z-20 last_box_right_mobile'>
             <h2 className='text-3xl font-semibold'>Built for Developers</h2>

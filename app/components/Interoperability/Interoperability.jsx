@@ -1,9 +1,19 @@
-import React from "react";
+"use client"
+import React, {useEffect} from "react";
 import "./Interoperability.css";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 const Interoperability = () => {
+   
+  useEffect(() => {
+    AOS.init({
+         duration: 800,
+         once: false,
+       })
+ }, [])
   return (
 
-    <div className="container">
+    <div className="container" data-aos="fade-up">
       <div class="blocks-layout align-center">
         <div class="h2-headline-layout">
           <div

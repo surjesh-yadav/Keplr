@@ -1,8 +1,16 @@
-import React from "react";
-
+import React, {useEffect} from "react";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 const FasterTransactions = () => {
+   
+  useEffect(() => {
+    AOS.init({
+         duration: 800,
+         once: false,
+       })
+ }, [])
   return (
-    <div className="mt-20">
+    <div className="mt-20" data-aos="fade-up">
       <div className="container bg-[#1a1b1c] rounded-[30px] text-white fasterTransaction mx-auto">
         <div className="md:flex justify-between">
           <div className="p-5 md:pl-20 py-5 md:py-16 md:w-[58%]">

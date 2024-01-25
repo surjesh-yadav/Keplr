@@ -1,8 +1,18 @@
-import React from "react";
+"use client"
+import React, {useEffect} from "react";
 import "./BetaAccess.css"
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 const BetaAccess = () => {
+   
+  useEffect(() => {
+    AOS.init({
+         duration: 800,
+         once: false,
+       })
+ }, [])
   return (
-     <div className="relative">
+     <div data-aos="fade-up" className="relative">
     <div class="block-item my-10">
       <div id="validator" class="anchor"></div>
       <div class="bi-content is-valid-cont">
