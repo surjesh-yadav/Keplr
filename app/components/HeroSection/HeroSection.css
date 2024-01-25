@@ -206,3 +206,7 @@ svg:not(:root) {
 .bold {
     font-weight: 500;
 }
+
+.section.hero {
+    margin-top: 9em !important;
+}
