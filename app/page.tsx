@@ -13,7 +13,9 @@ import CircutAnimation from './components/CircutAnimation/CircutAnimation'
 import GatewayScrollMobile from './components/GatewayScrollMobile/GatewayScroll'
 export default function Home() {
   return (
-     <div className='bg-[#080b18]'>
+     <div className='bg-[#000000]'>
+         <HeroSection/>
+
         <div className=" px-5 scroll-smooth max-w-screen-xl mx-auto">
       <Head>
         <title>The BEP20 Token govern by the community.!!</title>
@@ -22,8 +24,6 @@ export default function Home() {
       </Head>
         <div className='max-width'>  
          <Header />
-         {/* <GatewayScrollMobile/> */}
-         <HeroSection/>
          <CircutAnimation/>
          <Supercharge/>
          <BetaAccess/>

@@ -98,7 +98,7 @@ const Header = () => {
               </ul>
             </div>
             <div className="text-black">
-              <Link className="button small text-black w-inline-block install_keplr_button" href="#">
+              <Link className="button small text-white w-inline-block install_keplr_button" href="#">
                 Dashboard
               </Link>
             </div>

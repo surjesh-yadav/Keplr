@@ -2,6 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
+ 
+  @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&family=Plus+Jakarta+Sans:wght@200;300;400;500;600;700&display=swap');
+ 
 @import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200&family=Plus+Jakarta+Sans:wght@300;400;500;600&display=swap");
 
 :root {
@@ -20,15 +23,10 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
-
-  /* font-family: 'Plus Jakarta Sans', sans-serif!important;
-    src: url('/public/fonts/PlusJakartaSans-VariableFont_wght.ttf'); */
+  background: #000000;
+ 
+     
+     src: url('/public/fonts/PlusJakartaSans-VariableFont_wght.ttf');
 }
 
 .max-width {
@@ -183,7 +181,7 @@ body {
 }
  
 html{
-  background-color: #080b18;
+  background-color: #000000;
 }
 
 
@@ -323,7 +321,7 @@ nav{
 h3 {
   margin-top: 0;
   margin-bottom: 0;
-  font-family: Haffersqxh,sans-serif;
+  
   font-size: 2rem;
   font-weight: 500;
   line-height: 1.2;
@@ -375,7 +373,7 @@ h3 {
 }
 
 .field.search {
-  background-color:#080b18;
+  background-color:#000000;
   background-image: url("/search_icon.svg");
   background-position: 2%;
   background-repeat: no-repeat;
@@ -419,6 +417,7 @@ h3 {
   transition: background-color .25s,transform .25s cubic-bezier(.645,.045,.355,1);
   display: flex;
   overflow: hidden;
+  color: white !important;
 }
 
 .button.text-only {
@@ -683,7 +682,7 @@ h3 {
     width: 100%;
     top: 84px;
     left: 0;
-    background: #080b18;
+    background: #000000;
     border-radius: 21px;
     backdrop-filter: blur(10px);
     border: 1px solid #3d447e;
@@ -699,7 +698,7 @@ h3 {
 
 .dropdown_toggle_div{
   position: absolute;
-  background: #080b18 !important;
+  background: #000000 !important;
   border: 1px solid #3d447e !important;
   width: 250px;
   height: 200px;

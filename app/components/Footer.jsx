@@ -10,8 +10,9 @@ const Footer = () => {
       >
         <img src="./scrollup.svg" />
       </a>
-      <footer className=" md:bg-[#080b18] pt-10 pb-10">
-       <hr  className="border-gray-600"/>  
+      <footer className=" md:bg-[#000000] pt-10 pb-10">
+       <hr  className="border-gray-600"/>
+      
         <div className="mx-auto w-full max-w-screen-xl py-6 lg:py-8">
           <h2 className="my-3 text-white font-semibold">Native Chains</h2>
           <div className="grid xs:grid-cols-2 sm:grid-cols-3 md:grid-cols-5 lg:grid-cols-6 gap-5 mobile_footer">
