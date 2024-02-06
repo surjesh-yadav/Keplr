@@ -11,20 +11,7 @@ const Footer = () => {
         <img src="./scrollup.svg" />
       </a>
       <footer className=" md:bg-[#080b18] pt-10 pb-10">
-       <div className="md:flex justify-between">
-           <div className="my-3"> <img className="w-[90px]" src="/logoMain.png"/></div>
-           <div >
-               <ul className="flex flex-wrap space-x-4 mt-5">
-                   <li>Source Code</li>
-                   <li>Documentation</li>
-                   <li>Help Desk</li>
-                   <li>Brand Kit</li>
-                  <li className="text-xs bg-cyan-500 pt-1 px-1 text-white rounded-full">NEW</li>
-               </ul>
-           </div>
-       </div>
-       <hr  className="border-gray-600"/>
-       
+       <hr  className="border-gray-600"/>  
         <div className="mx-auto w-full max-w-screen-xl py-6 lg:py-8">
           <h2 className="my-3 text-white font-semibold">Native Chains</h2>
           <div className="grid xs:grid-cols-2 sm:grid-cols-3 md:grid-cols-5 lg:grid-cols-6 gap-5 mobile_footer">
