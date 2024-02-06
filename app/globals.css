@@ -106,7 +106,7 @@ body {
 }
 
 .first-tab{
-  box-shadow: 0 100px 15em -5em #2dd98f !important;
+  box-shadow: 0 100px 15em -5em #b96c33 !important;
   width: 100%;
 }
 
@@ -141,11 +141,11 @@ body {
 
 @media screen and (max-width: 991px){
 .bi-background.is-devs {
-    background-image: radial-gradient(circle farthest-corner at 0% 100%,#0f2b1f,var(--ui-black)80%);
+    background-image: radial-gradient(circle farthest-corner at 0% 100%,#954A13,var(--ui-black)80%);
 }
 }
 .bi-background.is-devs {
-    background-image: radial-gradient(circle farthest-corner at 0% 100%,#0f2b1f,var(--ui-black)80%);
+    background-image: radial-gradient(circle farthest-corner at 0% 100%,#954A13,var(--ui-black)80%);
 }
 
 
@@ -408,7 +408,7 @@ h3 {
   min-height: 3em;
   grid-column-gap: 0.25em;
   grid-row-gap: 0.25em;
-  background-color: #2dd98f;
+  background-color: #b96c33;
   color: var(--ui-black);
   border-radius: 10em;
   justify-content: center;
@@ -460,7 +460,7 @@ h3 {
 
 
 .bi-background.is-chains-bg {
-    background-image: radial-gradient(circle farthest-corner at 100% 100%, #ebf7fd ,#9162ff 9%,#1c30a8 28%, #080B1C 75%);
+    background-image: radial-gradient(circle farthest-corner at 100% 100%, #ebf7fd ,#954A13 9%,#954A13 28%, #080B1C 75%);
 
   }
 
@@ -489,7 +489,7 @@ h3 {
 
 
 .bi-background.is-devs {
-  background-image: radial-gradient(circle farthest-corner at 0% 100%,#0f2b1f, #080B1C 80%);
+  background-image: radial-gradient(circle farthest-corner at 0% 100%,#954A13, #080B1C 80%);
 } 
 
 

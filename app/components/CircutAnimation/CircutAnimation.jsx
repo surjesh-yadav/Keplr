@@ -15,15 +15,7 @@ const CircutAnimation = () => {
             }}
             class="animation-lines__layout"
           >
-            <div class="al-layout__logo">
-              <img
-                src="https://assets-global.website-files.com/63eb7ddf41cf5b1c8fdfbc74/63edd5d1a40b9a48841ac1d2_Keplr%20Logo.svg"
-                loading="lazy"
-                alt="Keplr Wallet Official Website
-"
-                class="keplr-logo-image"
-              />
-            </div>
+            
             <h2 class="al-display-headline">
               One Wallet. <br />
               Full Interoperability
@@ -187,19 +179,14 @@ const CircutAnimation = () => {
                     gradientUnits="userSpaceOnUse"
                   >
                     <stop stop-color="transparent " offset="0%"></stop>
-                    <stop stop-color="#314FDF" offset="10%"></stop>
-                    <stop stop-color="#8B4DFF" offset="90%"></stop>
+                    <stop stop-color="#954A13" offset="10%"></stop>
+                    <stop stop-color="#954A13" offset="90%"></stop>
                     <stop stop-color="transparent" offset="100%"></stop>
                   </linearGradient>
                 </defs>
               </svg>
             </div>
-            <img
-              src="https://assets-global.website-files.com/63eb7ddf41cf5b1c8fdfbc74/63f5dc6fb6a4b3f3f03bae44_Fade.svg"
-              loading="lazy"
-              alt=""
-              class="lines-blur-bg"
-            />
+             
           </div>
         </div>
       </section>

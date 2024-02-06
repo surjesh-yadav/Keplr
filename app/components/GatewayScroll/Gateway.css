@@ -49,7 +49,7 @@
     z-index: 4;
     width: 18em;
     height: 31em;
-    box-shadow: 0 0 10em -2em #2640e4,156px 8px 6em -6em #9162ff,200px 0 10em -4em #2640e4,0 0 0 1000vw var(--ui-black);
+    box-shadow: 0 0 10em -2em #954A13,156px 8px 6em -6em #954A13,200px 0 10em -4em #954A13,0 0 0 1000vw var(--ui-black);
     opacity: 1;
     background-color: transparent;
     border: 1px solid rgba(255,255,255,.35);

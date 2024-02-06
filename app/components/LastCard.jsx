@@ -42,7 +42,7 @@ const LastCard = () => {
             <hr/>
              <div className='md:flex justify-between mt-6'>
                 <div className='m-3'> <Link href="#">Get Started</Link></div>
-                <div className='h-[40px] bg-cyan-400 py-2 px-4 rounded-full text-black'>
+                <div className='h-[40px] bg-[#b96c33] py-2 px-4 rounded-full text-black'>
                      <Link className='' href="#">Learn More</Link>
                 </div>
              </div>
@@ -62,7 +62,7 @@ const LastCard = () => {
             <hr/>
              <div className='md:flex justify-between mt-6 '>
                 <div className='m-3'> <Link href="#">Get Started</Link></div>
-                <div className='h-[40px] bg-cyan-400 py-2 px-4 rounded-full text-black'>
+                <div className='h-[40px] bg-[#b96c33] py-2 px-4 rounded-full text-black'>
                      <Link className='' href="#">See Documentation</Link>
                 </div>
              </div>
