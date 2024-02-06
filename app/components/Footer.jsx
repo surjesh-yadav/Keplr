@@ -12,7 +12,7 @@ const Footer = () => {
       </a>
       <footer className=" md:bg-[#080b18] pt-10 pb-10">
        <div className="md:flex justify-between">
-           <div className="my-3"> <img className="w-[90px]" src="/main_logo.svg"/></div>
+           <div className="my-3"> <img className="w-[90px]" src="/logoMain.png"/></div>
            <div >
                <ul className="flex flex-wrap space-x-4 mt-5">
                    <li>Source Code</li>
