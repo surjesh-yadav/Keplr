@@ -12,75 +12,76 @@ const Supercharge = () => {
   }, []);
 
   return (
-    <div className="mt-20" data-aos="fade-up">
+    <div className="mt-20">
       <h2 className="text-center font-semibold text-[30px] my-5">
         Features of Doller House
       </h2>
       <div>
         <div className="grid sm:grid-cols-1 md:grid-cols-1 gap-4">
           <div
-            data-w-id="b3fd95f7-10b2-f103-e2b0-e28f97e2adb1 "
-            className="df-item p-4 md:flex  justify-around"
+            data-w-id="b3fd95f7-10b2-f103-e2b0-e28f97e2adb1"
+            className="df-item p-6 py-8 md:flex  justify-around background_box"
           >
             <div className="md:w-1/2 mt-3">
               <img
-                src="https://assets-global.website-files.com/63eb7ddf41cf5b1c8fdfbc74/63f479637df68f7e4b36c371_k-icon-stake.svg"
+                src="/top_image.svg"
                 loading="lazy"
                 alt=""
                 className="icon-medium"
               />
-              <h4>Doller House 1 Plan</h4>
-              <p>
+              <h3 className="text-2xl  mt-4">Doller House 1 Plan</h3>
+
+              <p className=" text-white mt-3">
                 The best & advanced networking platform deployed on Binance
                 smart chain network, with superfast transactions & speed. The
                 house of investment is coming for you all..
               </p>
             </div>
-            <div className="max-w-[260px] mt-3 md:mt-0 mx-auto md:mx-0">
+            <div className="max-w-[260px] mt-4 md:mt-0 mx-auto md:mx-0">
+              <img src="/featuresBox.svg" />
+            </div>
+          </div>
+          <div data-w-id="b3fd95f7-10b2-f103-e2b0-e28f97e2adb1 flex justify-between"
+            className="df-item p-6 py-8 md:flex justify-around background_box"
+          >
+            <div className="md:w-1/2 mt-3">
+              <img
+                 src="/top_image.svg"
+                 loading="lazy"
+                alt=""
+                className="icon-medium"
+              />
+              <h3 className="text-2xl  mt-4">Doller House 1 Plan</h3>
+
+              <p className=" mt-3 text-white">
+                The best & advanced networking platform deployed on Binance
+                smart chain network, with superfast transactions & speed. The
+                house of investment is coming for you all..
+              </p>
+            </div>
+            <div className="max-w-[260px] mt-4 md:mt-0 mx-auto md:mx-0">
               <img src="/featuresBox.svg" />
             </div>
           </div>
           <div
             data-w-id="b3fd95f7-10b2-f103-e2b0-e28f97e2adb1 flex justify-between"
-            className="df-item p-4 md:flex mt-3 md:mt-0 justify-around"
+            className="df-item  p-6 py-8 md:flex justify-around background_box"
           >
-            <div className="md:w-1/2 mt-3">
+            <div className="md:w-1/2 mt-4">
               <img
-                src="https://assets-global.website-files.com/63eb7ddf41cf5b1c8fdfbc74/63f479637df68f7e4b36c371_k-icon-stake.svg"
-                loading="lazy"
+                src="/top_image.svg"
+                 loading="lazy"
                 alt=""
                 className="icon-medium"
               />
-              <h4>Doller House 1 Plan</h4>
-              <p>
+              <h3 className="text-2xl mt-4">Doller House 1 Plan</h3>
+              <p className="text-white mt-3">
                 The best & advanced networking platform deployed on Binance
                 smart chain network, with superfast transactions & speed. The
                 house of investment is coming for you all..
               </p>
             </div>
-            <div className="max-w-[260px] mt-3 md:mt-0 mx-auto md:mx-0">
-              <img src="/featuresBox.svg" />
-            </div>
-          </div>
-          <div
-            data-w-id="b3fd95f7-10b2-f103-e2b0-e28f97e2adb1 flex justify-between"
-            className="df-item p-4 md:flex justify-around"
-          >
-            <div className="md:w-1/2 mt-3">
-              <img
-                src="https://assets-global.website-files.com/63eb7ddf41cf5b1c8fdfbc74/63f479637df68f7e4b36c371_k-icon-stake.svg"
-                loading="lazy"
-                alt=""
-                className="icon-medium"
-              />
-              <h4>Doller House 1 Plan</h4>
-              <p>
-                The best & advanced networking platform deployed on Binance
-                smart chain network, with superfast transactions & speed. The
-                house of investment is coming for you all..
-              </p>
-            </div>
-            <div className="max-w-[260px] mt-3 md:mt-0 mx-auto md:mx-0">
+            <div className="max-w-[260px] mt-4 md:mt-0 mx-auto md:mx-0">
               <img src="/featuresBox.svg" />
             </div>
           </div>

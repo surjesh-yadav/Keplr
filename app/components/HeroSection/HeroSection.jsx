@@ -5,9 +5,9 @@ const HeroSection = () => {
     <div>
       <section 
         data-w-id="fdc7ae2a-19d6-71bb-fc08-93dd6484428d mt-20"
-        class="section hero hero_sectionMain px-4"
+        class="section hero hero_sectionMain px-4 mt-0"
       >
-        <div class="container md:flex">
+        <div class="container md:flex  mt-28">
           <div class="hero-layout">
           <div className="block md:hidden">
                 <img src="/line.svg"/> 

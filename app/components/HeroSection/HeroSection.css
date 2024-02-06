@@ -1,6 +1,6 @@
 
 .section.hero {
-    margin-top: 6em;
+    margin-top: 0px !important;
 }
 .section {
     z-index: 3;
@@ -218,10 +218,9 @@ svg:not(:root) {
     font-weight: 500;
 }
 
-.section.hero {
-    margin-top: 9em !important;
-}
 .hero_sectionMain{
     background-image: url("/Bgimage.JPG");
     background-size: cover;
+    background-position: bottom;
+    margin-top: 0 !important;
 }

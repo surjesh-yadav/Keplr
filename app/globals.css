@@ -441,7 +441,6 @@ h3 {
   min-width: 1.7em;
 }
 
-
 .bi-background {
   z-index: 0;
   width: 100%;
@@ -756,4 +755,11 @@ h3 {
   .width_hundred {
     width: 100% !important;
 }
+}
+
+.background_box{
+    background-image: url("/box_background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
