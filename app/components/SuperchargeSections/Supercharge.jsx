@@ -22,7 +22,7 @@ const Supercharge = () => {
             data-w-id="b3fd95f7-10b2-f103-e2b0-e28f97e2adb1 "
             className="df-item p-4 md:flex  justify-around"
           >
-            <div className="md:w-1/2">
+            <div className="md:w-1/2 mt-3">
               <img
                 src="https://assets-global.website-files.com/63eb7ddf41cf5b1c8fdfbc74/63f479637df68f7e4b36c371_k-icon-stake.svg"
                 loading="lazy"
@@ -44,7 +44,7 @@ const Supercharge = () => {
             data-w-id="b3fd95f7-10b2-f103-e2b0-e28f97e2adb1 flex justify-between"
             className="df-item p-4 md:flex mt-3 md:mt-0 justify-around"
           >
-            <div className="md:w-1/2">
+            <div className="md:w-1/2 mt-3">
               <img
                 src="https://assets-global.website-files.com/63eb7ddf41cf5b1c8fdfbc74/63f479637df68f7e4b36c371_k-icon-stake.svg"
                 loading="lazy"
@@ -66,7 +66,7 @@ const Supercharge = () => {
             data-w-id="b3fd95f7-10b2-f103-e2b0-e28f97e2adb1 flex justify-between"
             className="df-item p-4 md:flex justify-around"
           >
-            <div className="md:w-1/2">
+            <div className="md:w-1/2 mt-3">
               <img
                 src="https://assets-global.website-files.com/63eb7ddf41cf5b1c8fdfbc74/63f479637df68f7e4b36c371_k-icon-stake.svg"
                 loading="lazy"
