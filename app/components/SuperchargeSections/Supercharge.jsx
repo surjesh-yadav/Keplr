@@ -91,9 +91,8 @@ const Supercharge = () => {
             className="df-item py-8 p-6 md:flex md:space-x-10 justify-around">
              <div className="max-w-[425px] mt-4 md:mt-0 mx-auto md:mx-0">
               <img src="/dashboard.png" />
-            </div>
+             </div>
              <div className="md:w-1/2 mt-4">
-              
               <h3 className="text-3xl font-bold mt-4"> <span className="text-[#b96c33]">Dollar house </span>dashboard</h3>
               <p className="text-white mt-3 max-w-[350px]">
               Easy to use and user friendly dashboard to keep the track of your team, purchase, incomes and much more.
