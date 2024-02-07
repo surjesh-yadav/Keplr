@@ -14,7 +14,7 @@ const Supercharge = () => {
   return (
     <div className="mt-20">
       <h2 className="text-center font-semibold text-[30px] my-5">
-        Features of Doller House
+        Features of Dollar House
       </h2>
       <div>
         <div className="grid sm:grid-cols-1 md:grid-cols-1 gap-4">
@@ -30,7 +30,7 @@ const Supercharge = () => {
                 alt=""
                 className="icon-medium"
               />
-              <h3 className="text-2xl mt-5 ">Doller House 1 Plan</h3>
+              <h3 className="text-2xl mt-5 ">Dollar House 1 Plan</h3>
               <p className=" max-w-[350px] text-white mt-3">
                 The best & advanced networking platform deployed on Binance
                 smart chain network, with superfast transactions & speed. The
@@ -51,7 +51,7 @@ const Supercharge = () => {
                 alt=""
                 className="icon-medium"
               />
-              <h3 className="text-2xl   mt-5">Doller House 1 Plan</h3>
+              <h3 className="text-2xl   mt-5">Dollar House 1 Plan</h3>
 
               <p className="max-w-[350px] mt-3 text-white">
                 The best & advanced networking platform deployed on Binance
@@ -75,7 +75,7 @@ const Supercharge = () => {
                 alt=""
                 className="icon-medium"
               />
-              <h3 className="text-2xl mt-4">Doller House 1 Plan</h3>
+              <h3 className="text-2xl mt-4">Dollar House 1 Plan</h3>
               <p className="text-white mt-3 max-w-[350px]">
                 The best & advanced networking platform deployed on Binance
                 smart chain network, with superfast transactions & speed. The
