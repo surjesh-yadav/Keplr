@@ -30,7 +30,7 @@ const Supercharge = () => {
                 alt=""
                 className="icon-medium"
               />
-              <h3 className="text-2xl ">Doller House 1 Plan</h3>
+              <h3 className="text-2xl mt-5 ">Doller House 1 Plan</h3>
               <p className=" max-w-[350px] text-white mt-3">
                 The best & advanced networking platform deployed on Binance
                 smart chain network, with superfast transactions & speed. The
@@ -51,7 +51,7 @@ const Supercharge = () => {
                 alt=""
                 className="icon-medium"
               />
-              <h3 className="text-2xl  mt-4">Doller House 1 Plan</h3>
+              <h3 className="text-2xl   mt-5">Doller House 1 Plan</h3>
 
               <p className="max-w-[350px] mt-3 text-white">
                 The best & advanced networking platform deployed on Binance
@@ -92,7 +92,7 @@ const Supercharge = () => {
              <div className="max-w-[400px] mt-4 md:mt-0 mx-auto md:mx-0">
               <img src="/dashboard.png" />
              </div>
-             <div className="md:w-1/2 mt-4">
+             <div className="md:w-1/2  mt-5">
               <h3 className="text-3xl font-bold mt-4"> <span className="text-[#b96c33]">Dollar house </span>dashboard</h3>
               <p className="text-white mt-3 max-w-[350px]">
               Easy to use and user friendly dashboard to keep the track of your team, purchase, incomes and much more.
