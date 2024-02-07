@@ -763,3 +763,9 @@ h3 {
     background-size: cover;
     background-position: center;
 }
+
+.dashboard_ul {
+  list-style: disc;
+  margin-left: 18px;
+  font-size: 15px;
+}

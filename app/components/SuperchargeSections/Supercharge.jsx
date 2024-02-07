@@ -86,27 +86,31 @@ const Supercharge = () => {
               <img src="/featuresBox3.svg" />
             </div>
           </div>
-          <div
-           data-aos="fade-up"
+          <div data-aos="fade-up"
             data-w-id="b3fd95f7-10b2-f103-e2b0-e28f97e2adb1 flex justify-between"
-            className="df-item  p-6 py-8 md:flex justify-around background_box"
-          >
-            <div className="md:w-1/2 mt-4">
-              <img
-                src="/top_image.svg"
-                 loading="lazy"
-                alt=""
-                className="icon-medium"
-              />
-              <h3 className="text-2xl mt-4">Doller House 1 Plan</h3>
-              <p className="text-white mt-3 max-w-[350px]">
-                The best & advanced networking platform deployed on Binance
-                smart chain network, with superfast transactions & speed. The
-                house of investment is coming for you all..
-              </p>
+            className="df-item py-8 p-6 md:flex md:space-x-10 justify-around">
+             <div className="max-w-[425px] mt-4 md:mt-0 mx-auto md:mx-0">
+              <img src="/dashboard.png" />
             </div>
-            <div className="max-w-[425px] mt-4 md:mt-0 mx-auto md:mx-0">
-              <img src="/featuresBox3.svg" />
+             <div className="md:w-1/2 mt-4">
+              
+              <h3 className="text-3xl font-bold mt-4"> <span className="text-[#b96c33]">Dollar house </span>dashboard</h3>
+              <p className="text-white mt-3 max-w-[350px]">
+              Easy to use and user friendly dashboard to keep the track of your team, purchase, incomes and much more.
+              </p>
+              <ul className="mt-5 dashboard_ul">
+                <li>
+                View level income
+                </li>
+                <li>Track of missed, received, spilled, freezed rewards</li>
+                <li>
+                Wallet connectivity
+                </li>
+                <li>
+                Web3 integrated with security
+                </li>
+              </ul>
+              <button className="border border-[#b96c33] px-5 mt-6 py-2 rounded-full">Go to dashboard</button>
             </div>
           </div>
         </div>
