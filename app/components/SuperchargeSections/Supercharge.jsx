@@ -23,7 +23,7 @@ const Supercharge = () => {
             data-w-id="b3fd95f7-10b2-f103-e2b0-e28f97e2adb1"
             className="df-item p-6 py-8 md:flex  justify-around background_box"
           >
-            <div className="md:w-1/2 mt-3">
+            <div className="md:w-1/2 mt-8">
               <img
                 src="/top_image.svg"
                 loading="lazy"
@@ -44,7 +44,7 @@ const Supercharge = () => {
           <div  data-aos="fade-up" data-w-id="b3fd95f7-10b2-f103-e2b0-e28f97e2adb1 flex justify-between"
             className="df-item p-6 py-8 md:flex justify-around background_box"
           >
-            <div className="md:w-1/2 mt-3">
+            <div className="md:w-1/2 mt-8">
               <img
                  src="/top_image.svg"
                  loading="lazy"
@@ -68,7 +68,7 @@ const Supercharge = () => {
             data-w-id="b3fd95f7-10b2-f103-e2b0-e28f97e2adb1 flex justify-between"
             className="df-item  p-6 py-8 md:flex justify-around background_box"
           >
-            <div className="md:w-1/2 mt-4">
+            <div className="md:w-1/2 mt-8">
               <img
                 src="/top_image.svg"
                  loading="lazy"
@@ -82,7 +82,7 @@ const Supercharge = () => {
                 house of investment is coming for you all..
               </p>
             </div>
-            <div className="max-w-[425px] mt-4 md:mt-0 mx-auto md:mx-0">
+            <div className="max-w-[425px] mt-8 md:mt-0 mx-auto md:mx-0">
               <img src="/featuresBox3.svg" />
             </div>
           </div>
