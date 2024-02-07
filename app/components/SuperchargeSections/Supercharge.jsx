@@ -139,7 +139,30 @@ const Supercharge = () => {
               <img src="/binance.png" />
             </div>
           </div>
-          
+           <div className="mt-8" data-aos="fade-up">
+              <div className="grid md:grid-cols-2 gap-8">
+                  <div className="box_small bg-[#0F0F0F] rounded-2xl p-6">
+                      <img className="w-10" src="/dh1.svg"/>
+                       <h3 className="text-lg mt-3">DH-Decentralized Exchange</h3>
+                       <p className="mt-2">Superfast matching engine with optimum security for the traders will be launched in Jan 2025. DH Exchange will initially support 8 networks.</p>
+                  </div>
+                  <div className="box_small bg-[#0F0F0F] rounded-2xl p-6">
+                      <img className="w-10" src="/dh2.svg"/>
+                       <h3 className="text-lg mt-3">DH-Tradeable Token</h3>
+                       <p className="mt-2">ERC20 Standard token with burning mechanism will be deployed on Binance smart chain with an initial price of 0.3$.</p>
+                  </div>
+                  <div className="box_small bg-[#0F0F0F] rounded-2xl p-6">
+                      <img className="w-10" src="/dh3.svg"/>
+                       <h3 className="text-lg mt-3">DH- New Network Plan</h3>
+                       <p className="mt-2">New network plan for all DH users will be launched, which will have many more interesting features in addition to current plans.</p>
+                  </div>
+                  <div className="box_small bg-[#0F0F0F] rounded-2xl p-6">
+                      <img className="w-10" src="/dh4.svg"/>
+                       <h3 className="text-lg mt-3">DH-Tradeable Token</h3>
+                       <p className="mt-2">ERC20 Standard token with burning mechanism will be deployed on Binance smart chain with an initial price of 0.3$.</p>
+                  </div>
+              </div>
+           </div>
         </div>
       </div>
     </div>
