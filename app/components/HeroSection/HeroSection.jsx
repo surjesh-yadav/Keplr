@@ -9,7 +9,6 @@ const HeroSection = () => {
       >
         <div class="container md:flex  mt-28">
           <div class="hero-layout">
-          
             <div
               id="w-node-_33f1d247-9d2f-d5d7-ee5a-c3a9cd8f1aad-4456c467"
               class="hero-content hero_section_left_text"
@@ -37,9 +36,9 @@ const HeroSection = () => {
                 }}
                 class="hero-p"
               >
-                                    The best & advanced networking platform
+               The best & advanced networking platform
                deployed on Binance smart chain network, with
-                superfast transactions & speed. The crypto machine for all crypto enthusiasts</p>
+               superfast transactions & speed. The crypto machine for all crypto enthusiasts</p>
               <div
                 id="w-node-_765fdd2c-39bd-d271-2e73-943d66457b51-4456c467"
                 class="hero-install-item"
@@ -103,7 +102,7 @@ const HeroSection = () => {
             </div>
           </div>
         </div>
-        <div class="bg-animation"><div id="stars"></div><div id="stars2"></div><div id="stars3"></div><div id="stars4"></div></div>
+        
       </section>
     </div>
   );

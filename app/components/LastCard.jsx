@@ -74,13 +74,6 @@ const LastCard = () => {
           <p> Keplr is open-sourced. Add the seamless <br/> wallet experience easily to your products</p> 
         </div>
         <div class="bi-background is-devs"><div class="grid-css"></div><div id="stars-devs" class="stars"><canvas class="particles-js-canvas-el" width="894" height="424" style={{width:100, height:100}}></canvas></div></div>
-   
-        <div class="bg-animation">
-        <div id="stars"></div>
-        <div id="stars2"></div>
-        <div id="stars3"></div>
-        <div id="stars4"></div>
-        </div>
      </div>
   )
 }
