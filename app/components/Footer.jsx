@@ -224,7 +224,7 @@ const Footer = () => {
           </div>
         </div>
           <hr className="border-gray-600"/>
-          <p className="m-2 flex text-gray-600">© 2024, Keplr Wallet is proudly built by <img className="mx-2"  src="/logo.svg"/></p>
+          <p className="m-2 flex text-gray-600">© 2024, Keplr Wallet is proudly built by </p>
       </footer>
     </div>
   );
