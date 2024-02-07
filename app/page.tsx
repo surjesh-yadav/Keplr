@@ -11,6 +11,7 @@ import HeroSection from "./components/HeroSection/HeroSection"
 import Interoperability from './components/Interoperability/Interoperability'
 import CircutAnimation from './components/CircutAnimation/CircutAnimation'
 import GatewayScrollMobile from './components/GatewayScrollMobile/GatewayScroll'
+import GovernedCommunity from "./components/GovernedCommunity/GovernedCommunity"
 export default function Home() {
   return (
      <div className='bg-[#000000]'>
@@ -25,9 +26,10 @@ export default function Home() {
         <div className='max-width'>  
          <Header />
          <CircutAnimation/>
+         <GovernedCommunity/>
+         <Interoperability/>
          <Supercharge/>
          {/* <BetaAccess/> */}
-         <Interoperability/>
          <Card8/>
          <LastCard/>
         <div className='flex justify-center'><img className='w-[70px]' src='/footer_star.svg'/></div>
