@@ -9,9 +9,7 @@ const HeroSection = () => {
       >
         <div class="container md:flex  mt-28">
           <div class="hero-layout">
-          <div className="block md:hidden">
-                <img src="/line.svg"/> 
-            </div>
+          
             <div
               id="w-node-_33f1d247-9d2f-d5d7-ee5a-c3a9cd8f1aad-4456c467"
               class="hero-content hero_section_left_text"
