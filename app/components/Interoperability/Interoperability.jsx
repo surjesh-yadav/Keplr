@@ -114,8 +114,8 @@ const Interoperability = () => {
                 </div>
               </a>
             </div>
-          </div>
-          <div class="bi-background">
+           </div>
+           <div class="bi-background">
             <img
               src="https://assets-global.website-files.com/63eb7ddf41cf5b1c8fdfbc74/63f2f628327ae95ef7a63caf_icns-shape-illustration-sq.svg"
               loading="lazy"
@@ -330,6 +330,7 @@ const Interoperability = () => {
             </div>
           </div>
         </div>
+        <div class="bg-animation"><div id="stars"></div><div id="stars2"></div><div id="stars3"></div><div id="stars4"></div></div>
       </div>
     </div>
   );

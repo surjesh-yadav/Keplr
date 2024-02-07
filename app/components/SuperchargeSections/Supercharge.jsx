@@ -113,6 +113,7 @@ const Supercharge = () => {
               <button className="border border-[#b96c33] px-5 mt-6 py-2 rounded-full">Go to dashboard</button>
             </div>
           </div>
+          <div class="bg-animation"><div id="stars"></div><div id="stars2"></div><div id="stars3"></div><div id="stars4"></div></div>
         </div>
       </div>
     </div>
