@@ -14,7 +14,7 @@ const Interoperability = () => {
   return (
 
     <div className="container" data-aos="fade-up">
-      <div class="blocks-layout align-center">
+      <div class="blocks-layout align-center mt-5">
         <div class="h2-headline-layout">
           <div
             data-w-id="6b879517-04c9-13ef-4e3d-b8ca000fbe5b"
@@ -28,7 +28,7 @@ const Interoperability = () => {
           >
             <div class="badge-bg">
               <div class="badge-content">
-                <div>Ecosystem</div>
+                <div >Ecosystem</div>
               </div>
             </div>
           </div>
