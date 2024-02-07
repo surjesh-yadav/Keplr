@@ -12,7 +12,6 @@ const Interoperability = () => {
        })
  }, [])
   return (
-
     <div className="container" data-aos="fade-up">
       <div class="blocks-layout align-center mt-8">
         <div class="h2-headline-layout">

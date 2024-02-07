@@ -112,6 +112,33 @@ const Supercharge = () => {
               <button className="border border-[#b96c33] px-5 mt-6 py-2 rounded-full">Go to dashboard</button>
             </div>
           </div>
+          <div
+           data-aos="fade-up"
+            data-w-id="b3fd95f7-10b2-f103-e2b0-e28f97e2adb1 flex justify-between"
+            className="df-item  p-6 py-8 px-8 md:flex justify-around background_box"
+          >
+            <div className="md:w-1/2 ">
+              <h3 className="text-3xl font-bold mt-5 md:mt-0 "> <span className="text-[#b96c33]">Binance </span>Smart Chain</h3>
+              <p className="text-white mt-3 max-w-[350px]">
+              The robust & secure blockchain on which the dollar house platform is deployed. Dollar house uses BSC network because
+               </p>
+              <ul className="mt-5 dashboard_ul">
+                <li>
+                Robust & reliable 
+                </li>
+                <li>100% Secure & decentralized</li>
+                <li>
+                Faster transactions                
+                </li>
+                <li>
+                Minimal gas fees
+                </li>
+              </ul>
+            </div>
+            <div className="max-w-[275px]  md:mt-0 mx-auto md:mx-0">
+              <img src="/binance.png" />
+            </div>
+          </div>
           
         </div>
       </div>

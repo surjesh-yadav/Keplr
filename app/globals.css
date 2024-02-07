@@ -758,7 +758,7 @@ h3 {
 }
 
 .background_box{
-    background-image: url("/box_background.png");
+    background-image: url("/background.svg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
