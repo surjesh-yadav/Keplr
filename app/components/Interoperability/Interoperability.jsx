@@ -13,7 +13,7 @@ const Interoperability = () => {
  }, [])
   return (
     <div className="container" data-aos="fade-up">
-      <div class="blocks-layout align-center mt-8">
+      <div class="blocks-layout align-center mt-12">
         <div class="h2-headline-layout">
           <div
             data-w-id="6b879517-04c9-13ef-4e3d-b8ca000fbe5b"
@@ -41,7 +41,8 @@ const Interoperability = () => {
                 transformStyle: "preserve-3d",
               }}
             >
-              One Wallet. Full&nbsp;Interoperability.
+              {/* One Wallet. Full&nbsp;Interoperability. */}
+              Create your network seamlessly
             </h2>
             <p
               data-w-id="6b879517-04c9-13ef-4e3d-b8ca000fbe64"
@@ -52,67 +53,40 @@ const Interoperability = () => {
                 transformStyle: "preserve-3d",
               }}
             >
-              Easily plug into the new decentralized web experiences with Keplr.
+             You can invite your friends and colleagues to grow your network & level income
             </p>
           </div>
         </div>
-        <div class="block-item is-icns">
-          <div class="bi-content is-icns">
-            <div class="bi-content_subhead">
-              <img
-                src="https://assets-global.website-files.com/63eb7ddf41cf5b1c8fdfbc74/63ef3269a5cb638db6a77b3b_logo-partners-icns.svg"
-                loading="lazy"
-                alt="Keplr and ICNS partnership"
-                class="keplr-logo-partners"
-              />
+        <div class="block-item is-icns p-0 df-item_newtop">
+          <div class="bi-content is-icns df-item_newtop">
+            
+            <div
+            
+            data-w-id="b3fd95f7-10b2-f103-e2b0-e28f97e2adb1 flex justify-between"
+            className="df-item md:flex justify-around df-item_new"
+          >
+            <div className="md:w-1/2 ">
+              <h3 className="text-3xl font-bold mt-5 md:mt-0 "> <span className="text-[#f3ba2f]">Binance </span>Smart Chain</h3>
+              <p className="text-white mt-3 max-w-[350px]">
+              The robust & secure blockchain on which the dollar house platform is deployed. Dollar house uses BSC network because
+               </p>
+              <ul className="mt-5 dashboard_ul">
+                <li>
+                Robust & reliable 
+                </li>
+                <li>100% Secure & decentralized</li>
+                <li>
+                Faster transactions                
+                </li>
+                <li>
+                Minimal gas fees
+                </li>
+              </ul>
             </div>
-            <div class="bi-content_text">
-              <h3>
-                Portable Identity for&nbsp;the&nbsp;Interchain
-                <br />
-              </h3>
-              <p>
-                Send and receive assets with your Interchain Nameservice. Carry
-                and build a coherent identity from chain to chain.
-              </p>
-              <div class="features-item">
-                <img
-                  src="https://assets-global.website-files.com/63eb7ddf41cf5b1c8fdfbc74/63ef0e3aa90a071f2cefafe3_k-icon-users.svg"
-                  loading="lazy"
-                  alt="Join more than 40000 ICNS users"
-                  class="icon-medium"
-                />
-                <div>Join 48000 + members</div>
-              </div>
+            <div className="max-w-[200px] mt-4  md:mt-0 mx-auto md:mx-0">
+              <img src="/binance.png" />
             </div>
-            <div class="bi-content_buttons">
-              <a
-                href="https://www.icns.xyz/"
-                target="_blank"
-                class="button hero no-glow w-inline-block flex"
-              >
-                <div class="btn-text-small">
-                  Claim Your ICNS
-                  <br />
-                </div>
-                <div class="btn-arrow-item">
-                  <div class="icon-small w-embed">
-                    <svg
-                      width="100%"
-                      height="100%"
-                      viewBox="0 0 17 17"
-                      fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path
-                        d="M13.8512 8.11253L8.5179 13.4459L7.5679 12.5125L11.3012 8.77919L3.18457 8.7792L3.18457 7.44586L11.3012 7.44586L7.5679 3.71253L8.5179 2.7792L13.8512 8.11253Z"
-                        fill="currentColor"
-                      ></path>
-                    </svg>
-                  </div>
-                </div>
-              </a>
-            </div>
+          </div>
            </div>
            <div class="bi-background">
             <img
@@ -135,7 +109,7 @@ const Interoperability = () => {
           </div>
           <div class="bi-background is-devs"><div class="grid-css"></div><div id="stars-devs" class="stars"><canvas class="particles-js-canvas-el" width="894" height="424" ></canvas></div></div>
         </div>
-        <div data-aos="fade-up" class="blocks-layout-2items">
+        {/* <div data-aos="fade-up" class="blocks-layout-2items">
           <div class="block-item is-small sec">
             <div class="bi-content_small">
               <img
@@ -328,8 +302,7 @@ const Interoperability = () => {
               <div class="grid-css"></div>
             </div>
           </div>
-        </div>
-        
+        </div> */}
       </div>
     </div>
   );

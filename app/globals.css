@@ -769,3 +769,13 @@ h3 {
   margin-left: 18px;
   font-size: 15px;
 }
+.df-item_new{
+  border: none !important;
+}
+
+ 
+
+
+.df-item_last{
+justify-content: space-between !important;
+}
