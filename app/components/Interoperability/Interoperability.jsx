@@ -310,7 +310,7 @@ const Interoperability = () => {
       <div class="blocks-layout align-center mt-12">
         <div class="block-item is-icns p-0 df-item_newtop">
           <div  class="bi-content is-icns df-item_newtop">
-              <h4 className="text-center text-2xl mx-auto text-[#F3BA2F]">Club A </h4>
+              <h4 className="text-center text-2xl mx-auto text-[#F3BA2F] font-semibold">Club A </h4>
             <div
             
             data-w-id="b3fd95f7-10b2-f103-e2b0-e28f97e2adb1 flex justify-between"
@@ -353,7 +353,7 @@ const Interoperability = () => {
           </div>
           <div class="bi-background is-devs"><div class="grid-css"></div><div id="stars-devs" class="stars"><canvas class="particles-js-canvas-el" width="894" height="424" ></canvas></div></div>
         </div>
-        <div data-aos="fade-up" class="blocks-layout-2items">
+        {/* <div data-aos="fade-up" class="blocks-layout-2items">
           <div class="block-item is-small sec">
             <div class="bi-content_small">
               <img
@@ -546,7 +546,7 @@ const Interoperability = () => {
               <div class="grid-css"></div>
             </div>
           </div>
-        </div>  
+        </div>   */}
       </div>
     </div>
     </div>

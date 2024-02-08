@@ -19,7 +19,7 @@ const GovernedCommunity = () => {
           >
             <div className="p-8 md:ml-5 md:max-w-[55%]">
               
-              <h3 className="text-2xl mt-5">Why you should join <span className="text-[#E07E37]">Dollar House?</span></h3>
+              <h3 className="text-2xl font-semibold mt-5">Why you should join <span className="text-[#E07E37]">Dollar House?</span></h3>
                <ul className="mt-5">
                   <li className="text-sm mb-3 flex">
                        <img className="w-6 mr-4" src="/tickgreen.svg"/>

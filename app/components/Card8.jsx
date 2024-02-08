@@ -22,16 +22,16 @@ const Card8 = () => {
         <div class="chains-scroll">
           <div class="chain-list_wrap w-dyn-list">
                <div>
-                  <img className="m-5 rounded-md w-[95%]" src="/one.svg"/>
-                  <img className="m-5 rounded-md w-[95%]"  src="/two.svg"/>
-                  <img className="m-5 rounded-md w-[95%]"  src="/three.svg"/>
-                  <img className="m-5 rounded-md w-[95%]"  src="/four.svg"/>
-                  <img className="m-5 rounded-md w-[95%]"  src="/five.svg"/>
-                  <img className="m-5 rounded-md w-[95%]"  src="/six.svg"/>
-                  <img className="m-5 rounded-md w-[95%]"  src="/seven.svg"/>
-                  <img className="m-5 rounded-md w-[95%]"  src="/eight.svg"/>
-                  <img className="m-5 rounded-md w-[95%]"  src="/nine.svg"/>
-                  <img className="m-5 rounded-md w-[95%]"  src="/ten.png"/>
+                  <img className="md:m-5 m-2 rounded-md md:w-[95%] w-[96%]" src="/one.svg"/>
+                  <img className="md:m-5 m-2 rounded-md md:w-[95%]  w-[96%]"  src="/two.svg"/>
+                  <img className="md:m-5 m-2 rounded-md md:w-[95%]  w-[96%]"  src="/three.svg"/>
+                  <img className="md:m-5 m-2 rounded-md md:w-[95%]  w-[96%]"  src="/four.svg"/>
+                  <img className="md:m-5 m-2 rounded-md md:w-[95%]  w-[96%]"  src="/five.svg"/>
+                  <img className="md:m-5 m-2 rounded-md md:w-[95%]  w-[96%]"  src="/six.svg"/>
+                  <img className="md:m-5 m-2 rounded-md md:w-[95%]  w-[96%]"  src="/seven.svg"/>
+                  <img className="md:m-5 m-2 rounded-md md:w-[95%]  w-[96%]"  src="/eight.svg"/>
+                  <img className="md:m-5 m-2 rounded-md md:w-[95%]  w-[96%]"  src="/nine.svg"/>
+                  <img className="md:m-5 m-2 rounded-md md:w-[95%]  w-[96%]"  src="/ten.png"/>
                </div>
             <div
               fs-cmsfilter-element="empty"

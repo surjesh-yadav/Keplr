@@ -56,16 +56,16 @@ const Header = () => {
                 <li>
                   <a
                     href="/light.pdf"
-                    download="/light.pdf"
+                    download="Features of dollar house.pdf"
                     class="block py-2 cursor-pointer px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
                   >
-                    Lightpaper
+                    Litepaper
                   </a>
                 </li>
 
                 <li>
                   <a
-                    href="#"
+                    href="https://t.me/dollerhouse"
                     class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
                   >
                     Telegram
