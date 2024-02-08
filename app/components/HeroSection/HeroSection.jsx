@@ -73,13 +73,15 @@ const HeroSection = () => {
                       </div>
                     </div>
                   </a>
-                  <div class="users-item">
+                  <div class="users-item"> 
+                  <a href="https://t.me/dollerhouse">
                     <img
                       src="/telegram.png"
                       loading="lazy"
                       alt="Keplr Users"
                       class="users-item__pictures"
                     />
+                   </a>
                     <img
                        src="/twitter.png"
                        loading="lazy"

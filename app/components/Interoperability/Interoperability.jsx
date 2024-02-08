@@ -308,7 +308,6 @@ const Interoperability = () => {
     </div>
     <div className="container" data-aos="fade-up">
       <div class="blocks-layout align-center mt-12">
-      
         <div class="block-item is-icns p-0 df-item_newtop">
           <div class="bi-content is-icns df-item_newtop">
             
@@ -318,14 +317,14 @@ const Interoperability = () => {
             className="df-item md:flex justify-around df-item_new"
           >
             
-            <div className="max-w-[200px] mt-4  md:mt-0 mx-auto md:mx-0">
-              <img src="/binance.png" />
+            <div className="max-w-[250px] mt-4  md:mt-0 mx-auto md:mx-0">
+              <img className="my-auto mt-5 md:mt-[35%]" src="/binance1.png" />
+            </div>
+            <div className="max-w-[300px] mt-4  md:mt-0 mx-auto md:mx-0">
+              <img className="md:mt-[35%] mt-5" src="/binance2.png" />
             </div>
             <div className="max-w-[200px] mt-4  md:mt-0 mx-auto md:mx-0">
-              <img src="/binance.png" />
-            </div>
-            <div className="max-w-[200px] mt-4  md:mt-0 mx-auto md:mx-0">
-              <img src="/binance.png" />
+              <img className="mt-5" src="/binance3.png" />
             </div>
           </div>
            </div>

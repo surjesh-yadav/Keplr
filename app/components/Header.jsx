@@ -55,10 +55,11 @@ const Header = () => {
               <ul class="flex gap-6 md:gap-0 flex-col font-medium p-4 md:p-0  md:space-x-8 rtl:space-x-reverse md:flex-row mt-4">
                 <li>
                   <a
-                    href="#"
+                    href="/light.pdf"
+                    download="/light.pdf"
                     class="block py-2 cursor-pointer px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
                   >
-                    Whitepaper
+                    Lightpaper
                   </a>
                 </li>
 
