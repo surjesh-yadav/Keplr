@@ -56,7 +56,7 @@ const Supercharge = () => {
               </p>
             </div>
             <div className="max-w-[450px] mt-4 md:mt-0 mx-auto md:mx-0">
-              <img src="/featuresBox2.svg" />
+              <img src="/binance2.png" />
             </div>
           </div>
           <div
