@@ -8,7 +8,7 @@ const Terms_conditions = () => {
         {/* <img className="group4_bg4" src={group4_bg4} alt='group4_bg4' /> */}
         <div className='container mx-auto'>
           <div className='terms_condition'>
-          <h1>Terms conditions</h1>
+          <h2>Terms conditions</h2>
 
             <h3>1.Introduction</h3>
             <p>Define the parties involved (users and the company/organization).

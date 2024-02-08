@@ -12,9 +12,9 @@ const Privacy_policy = () => {
           <div className="disclaimer_conatnt2">
             <h2>Privacy Policy</h2>
             <p className="disclaimer_conatnt2_p">
-              Thank you for using CUN.!!! This Privacy Policy outlines how we
+              Thank you for using Dollar House.!!! This Privacy Policy outlines how we
               collect, use, disclose, and safeguard your personal information.
-              By using cunetwork.ai, you agree to the terms outlined in this
+              By using dollarhouse.co, you agree to the terms outlined in this
               policy.
             </p>
 
@@ -23,7 +23,7 @@ const Privacy_policy = () => {
             <p>
               a. <b>Personal Information:</b> We do not collect personal
               information such as your name, email address, and wallet address
-              when you use CUN
+              when you use Dollar House
             </p>
 
             <p>
@@ -34,7 +34,7 @@ const Privacy_policy = () => {
 
             <p>
               c. <b>Device Information:</b> We do not collect information about
-              the device you use to access cunetwork.ai, including device type,
+              the device you use to access dollarhouse.co, including device type,
               operating system, and IP address.
             </p>
 
@@ -42,7 +42,7 @@ const Privacy_policy = () => {
             <p>
               a. <b>Transaction Processing:</b>
               We do not use your personal information to process transactions
-              and provide you with the services offered by CUN
+              and provide you with the services offered by Dollar House
             </p>
             <p>
               b. <b> Improving Services: </b>
