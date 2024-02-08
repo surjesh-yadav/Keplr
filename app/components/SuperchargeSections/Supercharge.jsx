@@ -32,9 +32,7 @@ const Supercharge = () => {
               />
               <h3 className="text-2xl mt-5 ">Dollar House 1 Plan</h3>
               <p className=" max-w-[350px] text-white mt-3">
-                The best & advanced networking platform deployed on Binance
-                smart chain network, with superfast transactions & speed. The
-                house of investment is coming for you all..
+              Dollar House 1 Plan will be recycled after 4th direct or indirect referrer. 4th User's income will be sent to an upline
               </p>
             </div>
             <div className="max-w-[400px] mt-4 md:mt-0 mx-auto md:mx-0">
@@ -51,12 +49,10 @@ const Supercharge = () => {
                 alt=""
                 className="icon-medium"
               />
-              <h3 className="text-2xl   mt-5">Dollar House 1 Plan</h3>
+              <h3 className="text-2xl   mt-5">Dollar House 5 Plan</h3>
 
               <p className="max-w-[350px] mt-3 text-white">
-                The best & advanced networking platform deployed on Binance
-                smart chain network, with superfast transactions & speed. The
-                house of investment is coming for you all..
+              This is one of the unique & best plan of Dollar House. Income will be distributed based on the line of 10%, 20%, 20%, 50%. After recycle need to unlock the next level.
               </p>
             </div>
             <div className="max-w-[450px] mt-4 md:mt-0 mx-auto md:mx-0">
@@ -75,11 +71,9 @@ const Supercharge = () => {
                 alt=""
                 className="icon-medium"
               />
-              <h3 className="text-2xl mt-4">Dollar House 1 Plan</h3>
+              <h3 className="text-2xl mt-4">Dollar House 15 Plan</h3>
               <p className="text-white mt-3 max-w-[350px]">
-                The best & advanced networking platform deployed on Binance
-                smart chain network, with superfast transactions & speed. The
-                house of investment is coming for you all..
+               15 levels for each house are activated upon the purchase. Your income will be stopped if any of your house plan is recycled and not upgraded.
               </p>
             </div>
             <div className="max-w-[400px]  md:mt-0 mx-auto md:mx-0">
