@@ -10,7 +10,7 @@ const Footer = () => {
       >
         <img src="./scrollup.svg" />
       </a>
-      <div className="flex space-x-3">
+      <div className="flex space-x-3  text-white">
         <a>Privacy </a>
          <span>|</span>
         <a>Terms</a>
