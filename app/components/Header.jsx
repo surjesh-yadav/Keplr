@@ -34,7 +34,7 @@ const Header = () => {
           <button
             data-collapse-toggle="navbar-dropdown"
             type="button"
-            className={`inline-flex items-center p-2 w-10 h-10 justify-center text-sm  rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200  dark:hover:bg-gray-700 dark:focus:ring-gray-600 ${
+            className={`inline-flex items-center p-2 w-10 h-10 justify-center text-sm  rounded-lg md:hidden focus:ring-2 focus:ring-gray-200  dark:hover:bg-gray-700 dark:focus:ring-gray-600 ${
               isNavbarOpen ? "active" : ""
             }`}
             aria-controls="navbar-dropdown"
@@ -56,7 +56,6 @@ const Header = () => {
                 <li>
                   <a
                     href="/light.pdf"
-                    
                     download="Features of dollar house.pdf"
                     class="block py-2 cursor-pointer px-3 text-white hover:text-[#b96c33]"
                   >
