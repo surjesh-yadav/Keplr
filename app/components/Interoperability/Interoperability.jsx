@@ -309,22 +309,26 @@ const Interoperability = () => {
     <div className="container" data-aos="fade-up">
       <div class="blocks-layout align-center mt-12">
         <div class="block-item is-icns p-0 df-item_newtop">
-          <div class="bi-content is-icns df-item_newtop">
-            
+          <div  class="bi-content is-icns df-item_newtop">
+              <h4 className="text-center text-2xl mx-auto text-[#F3BA2F]">Club A </h4>
             <div
             
             data-w-id="b3fd95f7-10b2-f103-e2b0-e28f97e2adb1 flex justify-between"
             className="df-item md:flex justify-around df-item_new"
           >
-            
-            <div className="max-w-[250px] mt-4  md:mt-0 mx-auto md:mx-0">
-              <img className="my-auto mt-5 md:mt-[35%]" src="/binance1.png" />
+            <div className="max-w-[250px] relative mt-4  md:mt-0 mx-auto md:mx-0">
+              <img className="my-auto mt-5 md:mb-5 mb-[40px] md:mt-[35%]" src="/binance1.png" />
+               <p className="text-center absolute left-[30%] bottom-0 text-white font-semibold">House 1</p>
             </div>
-            <div className="max-w-[300px] mt-4  md:mt-0 mx-auto md:mx-0">
-              <img className="md:mt-[35%] mt-5" src="/binance2.png" />
+            <div className="max-w-[300px] relative mt-4  md:mt-0 mx-auto md:mx-0">
+              <img className="md:mt-[35%] md:mb-5 mb-[40px] mt-5" src="/binance2.png" />
+              <p className="text-center absolute left-[30%] bottom-0 text-white font-semibold">House 5</p>
+
             </div>
-            <div className="max-w-[200px] mt-4  md:mt-0 mx-auto md:mx-0">
-              <img className="mt-5" src="/binance3.png" />
+            <div className="max-w-[200px] relative mt-4  md:mt-0 mx-auto md:mx-0">
+              <img className="my-5 md:mb-5 mb-[40px]" src="/binance3.png" />
+              <p className=" text-center absolute left-[20%] bottom-0 text-white font-semibold">House 15</p>
+
             </div>
           </div>
            </div>
