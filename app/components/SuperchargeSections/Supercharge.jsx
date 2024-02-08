@@ -13,7 +13,7 @@ const Supercharge = () => {
 
   return (
     <div className="mt-20">
-      <h2 className="text-center font-semibold text-[30px] my-5">
+      <h2 className="text-center font-semibold text-[30px] my-5 text-white">
         Features of Dollar House
       </h2>
       <div>

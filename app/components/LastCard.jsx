@@ -49,19 +49,19 @@ const LastCard = () => {
             </div> </div> :  tabOpen == 2 ?  <div className=' border-color  bg-[#151827] rounded-2xl p-8 mt-5 width_hundred'>
             <div className='md:flex justify-between my-3 space-x-8'>
                 <ul>
-                    <li className='pb-5 text-sm flex'> <img src='/tick.svg'/>Token Transfers</li>
-                    <li className='pb-5 text-sm flex'><img src='/tick.svg'/>Transaction Signing</li>
-                    <li className='pb-5 text-sm flex'><img src='/tick.svg'/>Google Login</li>
+                    <li className='pb-5 text-sm flex text-white'> <img src='/tick.svg'/>Token Transfers</li>
+                    <li className='pb-5 text-sm flex text-white'><img src='/tick.svg'/>Transaction Signing</li>
+                    <li className='pb-5 text-sm flex text-white'><img src='/tick.svg'/>Google Login</li>
                 </ul>
                 <ul className='ml-0 ul_lower'>
-                    <li className='pb-5 text-sm flex'><img src='/tick.svg'/>Account Management</li>
-                    <li className='pb-5 text-sm flex'><img src='/tick.svg'/>Endpoint Infrastructure</li>
-                    <li className='pb-5 text-sm flex'><img src='/tick.svg'/>Staking / Governance</li>
+                    <li className='pb-5 text-sm flex text-white'><img src='/tick.svg'/>Account Management</li>
+                    <li className='pb-5 text-sm flex text-white'><img src='/tick.svg'/>Endpoint Infrastructure</li>
+                    <li className='pb-5 text-sm flex text-white'><img src='/tick.svg'/>Staking / Governance</li>
                 </ul>
             </div>
             <hr/>
              <div className='md:flex justify-between mt-6 '>
-                <div className='m-3'> <Link href="#">Get Started</Link></div>
+                <div className='m-3 text-white'> <Link href="#">Get Started</Link></div>
                 <div className='h-[40px] bg-[#b96c33] py-2 px-4 rounded-full text-black'>
                      <Link className='' href="#">See Documentation</Link>
                 </div>
